@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser is maximized Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login page displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Home page displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Purchase Page Title displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login page displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Application logged out successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-02-05T17:38:05 IST" name="Default suite" finished-at="2022-02-05T17:38:28 IST" duration-ms="22980">
+    <groups>
+    </groups>
+    <test started-at="2022-02-05T17:38:05 IST" name="Default test" finished-at="2022-02-05T17:38:28 IST" duration-ms="22980">
+      <class name="vTiger_TestCase.TC_01Test">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:vTiger_TestCase.TC_01Test@72cde7cc]" started-at="2022-02-05T17:38:05 IST" name="beforeClass" finished-at="2022-02-05T17:38:10 IST" duration-ms="4760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Browser is maximized Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:vTiger_TestCase.TC_01Test@72cde7cc]" started-at="2022-02-05T17:38:10 IST" name="beforeMethod" finished-at="2022-02-05T17:38:14 IST" duration-ms="4035" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Home page displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CreatePurchaseOrder()[pri:0, instance:vTiger_TestCase.TC_01Test@72cde7cc]" started-at="2022-02-05T17:38:14 IST" name="CreatePurchaseOrder" finished-at="2022-02-05T17:38:27 IST" duration-ms="12651" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Purchase Page Title displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreatePurchaseOrder -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:vTiger_TestCase.TC_01Test@72cde7cc]" started-at="2022-02-05T17:38:27 IST" name="afterMethod" finished-at="2022-02-05T17:38:28 IST" duration-ms="1225" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:vTiger_TestCase.TC_01Test@72cde7cc]" started-at="2022-02-05T17:38:28 IST" name="afterClass" finished-at="2022-02-05T17:38:28 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application logged out successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- vTiger_TestCase.TC_01Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
