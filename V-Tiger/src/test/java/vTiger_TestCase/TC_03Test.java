@@ -1,7 +1,7 @@
 package vTiger_TestCase;
 
 import org.testng.annotations.Test;
-import genericLib.BaseClass;
+
 import pomRepo.PurchasePage;
 /***
  * 

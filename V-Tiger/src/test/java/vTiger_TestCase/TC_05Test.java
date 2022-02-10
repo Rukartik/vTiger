@@ -3,7 +3,7 @@ package vTiger_TestCase;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
-import genericLib.BaseClass;
+
 import pomRepo.PurchasePage;
 
 /***
